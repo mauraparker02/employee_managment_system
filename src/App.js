@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import employees from "./employees.json";
+import Card from "./components/Card";
+import Nav from "./components/Navbar";
+import Button from "./components/Button";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+class App extends React.Component {
+  state = {
+    name: ["Food Director", "Senior Associate Food Editor", "Test Kitchen Manager", "Assistant Web Editor", "Test Kitchen Assistant"],
+    activeDepartment: "Select",
+    employees: employees,
+    sortOrder: "ascending",
+    sorted: false
+  }
+
+  }
 
 export default App;
