@@ -1,7 +1,7 @@
 import React from "react";
 
 function Card(props) {
-    console.log(props)
+    // console.log(props)
     return (
         <div>
             {/* pseduo code for what I want to render on employee cards:  
