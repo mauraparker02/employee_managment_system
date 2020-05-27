@@ -1,6 +1,7 @@
 import React from "react";
 
 function Card(props) {
+    console.log(props)
     return (
         <div>
             {/* pseduo code for what I want to render on employee cards:  
@@ -9,7 +10,7 @@ function Card(props) {
             Name: 
             Position: 
             Host of: 
-            Spotlight: 
+            Spotlight: how to render with a link?? 
             
             // */}
             <div className="card">
@@ -21,11 +22,11 @@ function Card(props) {
                         <li>
                             <strong>Position:</strong> {props.position}
                         </li>
-                        {/* <li>
-                            <strong>Host of Show:</strong> {props.show.host[0]}
-                        </li> */}
                         <li>
-                            <strong>Spotlight:</strong> {props.spotlight}
+                            <strong>Host of Show:</strong> {props.show}
+                        </li>
+                        <li>
+                            <strong>Spotlight:</strong> {props.spotlight} 
                         </li>
                     </ul>
                 </div>
