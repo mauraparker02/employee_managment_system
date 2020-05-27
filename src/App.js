@@ -17,6 +17,7 @@ class App extends React.Component {
     sorted: false
   }
   componentDidMount() {
+    console.log(this.state.employees[0].show.host)
     this.handleFilters();
   }
   handleFilters = () => {
@@ -97,8 +98,9 @@ class App extends React.Component {
             <Card
               name={employees.name}
               position={employees.position}
-              host={employees.show}
+              host={employees.show.host}
               spotlight={employees.spotlight}
+              guest={employees.show.guest}
             />
             
           ))}

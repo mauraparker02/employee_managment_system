@@ -1,18 +1,12 @@
 [
     {
         "id": 1,
+        "photo": "./public/imgs/Claire.jpg",
         "name": "Claire Saffitz",
         "position": "Senior Associate Food Editor",
         "show": {
-            "host": [
-                "From the Test Kitchen",
-                "Gormet Makes"
-            ],
-            "guest": [
-                "It's Alive",
-                "One of Everything",
-                "Test Kitchen Talks @ Home"
-            ]
+            "host": "Gormet Makes",
+            "guest": "Test Kitchen Talks @ Home"   
         },
         "spotlight": "https://www.youtube.com/watch?v=oidnwPIeqsI&list=PLKtIunYVkv_R7j68eIreitHl4NyaeeZ0L"
     },
@@ -21,14 +15,9 @@
         "name": "Brad Leone",
         "position": "Test Kitchen Manager",
         "show": {
-            "host": [
-                "From the Test Kitchen",
-                "It's Alive"
-            ],
-            "guest": [
-                "One of Everything",
-                "Test Kitchen Talks @ Home"
-            ]
+            "host": "It's Alive",
+            "guest": "Test Kitchen Talks @ Home"
+           
         },
         "spotlight": "https://www.youtube.com/watch?v=oidnwPIeqsI&list=PLKtIunYVkv_QT_cYB4wtfV3bK_HcCDZ6z"
     },
@@ -37,15 +26,8 @@
         "name": "Molly Baz",
         "position": "Senior Associate Food Editor",
         "show": {
-            "host": [
-                "From the Test Kitchen",
-                "Molly Tries"
-            ],
-            "guest": [
-                "Back to Back Chef",
-                "One of Everything",
-                "Test Kitchen Talks @ Home"
-            ]
+            "host":  "Molly Tries",
+            "guest": "Test Kitchen Talks @ Home"
         },
         "spotlight": "https://www.youtube.com/watch?v=0olmZzsF4Xo&list=PLKtIunYVkv_R_2sbCyLg0kiuEWNek9MtE"
     },
@@ -54,13 +36,8 @@
         "name": "Chris Morocco",
         "position": "Senior Associate Food Editor",
         "show": {
-            "host": [
-                "From the Test Kitchen",
-                "Reverse Engineering"
-            ],
-            "guest": [
-                "Test Kitchen Talks @ Home"
-            ]
+            "host": "Reverse Engineering",
+            "guest": "Test Kitchen Talks @ Home"
         },
         "spotlight": "https://www.youtube.com/watch?v=3eVMgUrEazA&list=PLKtIunYVkv_SqyjgHAPsfiImJlWBQIqmU"
     },
@@ -69,12 +46,8 @@
         "name": "Gaby Melian",
         "position": "Test Kitchen Assistant",
         "show": {
-            "host": [
-                "From the Test Kitchen"
-            ],
-            "guest": [
-                "Test Kitchen Talks @ Home"
-            ]
+            "host": "From the Test Kitchen",
+            "guest": "Test Kitchen Talks @ Home"
         },
         "spotlight": "https://www.youtube.com/watch?v=_ykjy61GwcE&list=PLKtIunYVkv_Sum5FJZAJYs3hSp-okqXuc&index=1"
     },
@@ -83,13 +56,8 @@
         "name": "Alex Delany",
         "position": "Assistant Web Editor",
         "show": {
-            "host": [
-                "From the Test Kitchen",
-                "One of Everything"
-            ],
-            "guest": [
-                "Test Kitchen Talks @ Home"
-            ]
+            "host": "One of Everything",
+            "guest": "Test Kitchen Talks @ Home"
         },
         "spotlight": "https://www.youtube.com/watch?v=JlcLT5aKO8k&list=PLKtIunYVkv_S8qkM74URw82HR1_Pb5v6g&index=2&t=0s"
     },
@@ -98,12 +66,9 @@
         "name": "Andy Baraghani",
         "position": "Senior Associate Food Editor",
         "show": {
-            "host": [
-                "From the Test Kitchen"
-            ],
-            "guest": [
-                "Test Kitchen Talks @ Home"
-            ]
+            "host": "From the Test Kitchen",
+            "guest": "Test Kitchen Talks @ Home"
+
         },
         "spotlight": "https://www.youtube.com/watch?v=AEn-m3R0R5o&list=PLKtIunYVkv_QV4_LZdLm-NoOdh9RYUpci"
     },
@@ -112,12 +77,8 @@
         "name": "Sohla El-Waylly",
         "position": "Test Kitchen Assistant",
         "show": {
-            "host": [
-                "From the Test Kitchen"
-            ],
-            "guest": [
-                "Test Kitchen Talks @ Home"
-            ]
+            "host": "From the Test Kitchen",
+            "guest": "Test Kitchen Talks @ Home"
         },
         "spotlight": "https://www.youtube.com/watch?v=IYOa54hxulQ"
     },
@@ -126,13 +87,8 @@
         "name": "Carla Lalli Music",
         "position": "Food Director",
         "show": {
-            "host": [
-                "From the Test Kitchen",
-                "Back-to-Back Chef"
-            ],
-            "guest": [
-                "Test Kitchen Talks @ Home"
-            ]
+            "host": "Back-to-Back Chef",
+            "guest": "Test Kitchen Talks @ Home"
         },
         "spotlight": "https://www.youtube.com/watch?v=1Gdl-A1DvpA&list=PLKtIunYVkv_RrZUrF8EBjcnpfr233IRCB"
     },
@@ -141,14 +97,8 @@
         "name": "Christina Chaey",
         "position": "Test Kitchen Assistant",
         "show": {
-            "host": [
-                "From the Test Kitchen",
-                "Back-to-Back Chef"
-            ],
-            "guest": [
-                "Test Kitchen Talks @ Home",
-                "One of Everything"
-            ]
+            "host": "Back-to-Back Chef",
+            "guest": "Test Kitchen Talks @ Home"
         },
         "spotlight": "https://www.youtube.com/watch?v=JlcLT5aKO8k&list=PLKtIunYVkv_S8qkM74URw82HR1_Pb5v6g&index=2&t=0s"
     }

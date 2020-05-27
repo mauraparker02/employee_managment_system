@@ -18,15 +18,18 @@ function Card(props) {
                     <ul>
                         <li id="employee">
                             {props.name}
-                        </li>
+                        </li> 
                         <li>
                             <strong>Position:</strong> {props.position}
                         </li>
                         <li>
-                            <strong>Host of Show:</strong> {props.show}
+                            <strong>Host of Show:</strong> {props.host}
                         </li>
                         <li>
-                            <strong>Spotlight:</strong> {props.spotlight} 
+                            <strong>Guest on Show:</strong> {props.guest}
+                        </li>
+                        <li>
+                            <strong>Spotlight:</strong> <a href={props.spotlight}>{props.spotlight}</a> 
                         </li>
                     </ul>
                 </div>
